@@ -59,7 +59,7 @@
             "src_id": "11111111-1111-1111-1111-000000000007",
             "src_view_id": "output0"
         },
-        "link126": {
+        "link127": {
             "dst_id": "11111111-1111-1111-1111-000000000009",
             "dst_view_id": "input0",
             "src_id": "11111111-1111-1111-1111-000000000008",
@@ -907,7 +907,7 @@
                                     {
                                         "expression": {
                                             "expression": true,
-                                            "value": "$ID"
+                                            "value": "$.get('ID')"
                                         },
                                         "targetPath": {
                                             "value": "$ID"
@@ -916,7 +916,7 @@
                                     {
                                         "expression": {
                                             "expression": true,
-                                            "value": "$NAME"
+                                            "value": "$.get('NAME')"
                                         },
                                         "targetPath": {
                                             "value": "$NAME"
@@ -1048,7 +1048,7 @@
                                     {
                                         "expression": {
                                             "expression": true,
-                                            "value": "$Department"
+                                            "value": "$Department!=null ?$Department : \"\" "
                                         },
                                         "targetPath": {
                                             "value": "$Department"
@@ -1213,10 +1213,10 @@
                         }
                     },
                     "enableDebug": {
-                        "value": true
+                        "value": false
                     },
                     "execution_mode": {
-                        "value": "Execute only"
+                        "value": "Validate & Execute"
                     },
                     "formEncodeSpace": {
                         "value": false
@@ -1230,17 +1230,17 @@
                                 },
                                 "headerValProp": {
                                     "expression": false,
-                                    "value": "Bearer b3659IOmEg5u8TduGeBCRsOhJSLt4UOI"
+                                    "value": " b3659IOmEg5u8TduGeBCRsOhJSLt4UOI"
                                 }
                             },
                             {
                                 "headerNameProp": {
                                     "expression": false,
-                                    "value": "content-length"
+                                    "value": "Content-Length"
                                 },
                                 "headerValProp": {
                                     "expression": false,
-                                    "value": "application/Json"
+                                    "value": "appilication/Json"
                                 }
                             }
                         ]

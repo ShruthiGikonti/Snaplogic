@@ -3,7 +3,7 @@
     "job_name": "load_DataMultiFile_usingAPI Task",
     "note": "",
     "parameters": {
-        "enabled": false,
+        "enabled": true,
         "include_external_urls": true,
         "job_type": "standard",
         "notification": {
